@@ -52,10 +52,103 @@
   margin-top:70px;
   width:350px;
 }
+nav {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  
+}
+li {
+  padding-left: 2em;
+  font-size: 22px;
+  display: inline-block;
+  list-style: none;
+  color: #fff;
+  background: none;
+  width:120px;
+  font-weight: 500;
+  vertical-align: middle;
+  
+  
+  
+}
+#menu{
+ 
+  vertical-align: top;
+  margin-left: 20%;
+  width: 60%;
+  margin-top: 2%;
+  
+  
+  
+  
+  
+}
+a{
+  text-decoration: none;
+  color:black;
+  
+  vertical-align: middle;
+  
+}
+li#search{
+  width:220px;
+  background-color:#A58BDF;
+  margin-left:5%; 
+  height:50px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 15px;
+  color:white;
+  
+  
+  
+  
+}
+#search-input{
+  background-color: #A58BDF;
+  border: none;
+  height:30px;
+  width: 190px;
+  margin-top:11px;
+  font-size: 20px;
+  
+  
+}
+button#search-input {
+  outline: none;
+  text-align:middle;
+  color: white;
+  width:260px;
+  margin-left:-42px;
+  font-weight: 900;
+
+}
+
 
   </style>
   <body>
-    <img id="logo" src="logo.png">
+    <header>
+      <nav>
+        <a class="inline"href="#"><img id="logo" src="logo.png"></a>
+        <div class="inline"id="menu">
+        <ul>
+          <li><a href='#'>Home</a></li>
+          <li><a href='#'>About Us</a></li>
+          <li><a href='#'>Contact Us</a></li>
+          <!-- <li id="search"><a href='#'><input id="search-input" type="text" placeholder="Search"></a></li> -->
+          <li id="search"><a href='#'><button id="search-input" >Get Started</a></li>
+          
+        </ul>
+        
+        </div>
+      </nav>
+    </header>
+    
+    
     <!-- <img id='hello'src="hello.png"> -->
     <div class="inline" id="home">
       
