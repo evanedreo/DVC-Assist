@@ -20,7 +20,7 @@
     color:white;
   }
   #home{
-     margin-top:40px;
+     margin-top:60px;
      margin-left: 80px;
   }
   .title{
@@ -49,7 +49,7 @@
 
 #hello{
   margin-left: -350px;
-  margin-top:70px;
+  margin-top:10px;
   width:350px;
 }
 nav {
@@ -68,7 +68,7 @@ li {
   list-style: none;
   color: #fff;
   background: none;
-  width:120px;
+  width:140px;
   font-weight: 500;
   vertical-align: middle;
   
@@ -108,27 +108,53 @@ li#search{
   
   
 }
-#search-input{
+/* #search-input{
+  border-radius: 15px;
   background-color: #A58BDF;
   border: none;
-  height:30px;
+  height:60px;
   width: 190px;
-  margin-top:11px;
+  margin-top:9px;
   font-size: 20px;
-  
-  
 }
-button#search-input {
+  
+  
+
+ button#search-input {
   outline: none;
   text-align:middle;
   color: white;
-  width:260px;
+  width:160px;
   margin-left:-42px;
   font-weight: 900;
+  margin-left: 5%;
 
+}    */
+
+button#search-body {
+  outline: none;
+  text-align:middle;
+  color: white;
+  width:300px;
+  
+  font-weight: 900;
+
+
+}  
+#search-body{
+  border-radius: 15px;
+  background-color: #A58BDF;
+  border: none;
+  height:60px;
+  width: 190px;
+  margin-top:9px;
+  font-size: 20px;
 }
 
+span {
+  content: "\2192";
 
+}
   </style>
   <body>
     <header>
@@ -140,7 +166,8 @@ button#search-input {
           <li><a href='#'>About Us</a></li>
           <li><a href='#'>Contact Us</a></li>
           <!-- <li id="search"><a href='#'><input id="search-input" type="text" placeholder="Search"></a></li> -->
-          <li id="search"><a href='#'><button id="search-input" >Get Started</a></li>
+          <!-- <li id="search" ><a href='#'><button id="search-input" >Get Started</a></li> -->
+          <li><a href="#">Get Started</a></li>
           
         </ul>
         
@@ -156,6 +183,11 @@ button#search-input {
       <h1 class="title">Assist</h1>
       
       <p id="description">HELPING YOU TRANSFER TO YOUR UC OF CHOICE!</p>
+      <!-- <li id="search" > -->
+        <a href='#'><button id="search-body" >Get Started</a>
+        <!-- </li> -->
+        <a href="#"><span>&#8594;</span></a>
+        </div>
     </div>
     <img id="hello"class="inline"src="hello.png">
     
