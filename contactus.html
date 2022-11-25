@@ -25,5 +25,70 @@
 </header>
 </body>
 
+<style>
+body{
+    font-family: 'Inter', sans-serif;
+    color: #064379;
+  }
+
+.inline{
+    display:inline-block;
+    width:unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+.title{
+    margin:0;
+    font-size: 90px;
+    font-weight:510;
+    text-align: right;
+}
+
+.image{
+  width: 65vh;
+  height: 75vh;
+  margin: 0px;
+  border-radius: 50px;
+  margin-left: 12vh;
+  margin-top: -5vh;
+}
+.inline{
+    display:inline-block;
+    width:unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  #contactus{
+    margin-top: -145vh;
+    margin-left: 100vh;
+  }
+  
+
+</style>
+
+<img id="contact" class="image" class="inline" src="contactimg.png">
+<div class="inline"id= "contactus">
+    <h1 class="title"> Contact us</h1>
+  </div>
+</div>
+
+<form>
+<fieldset>
+  <label id="name-label">Full Name<input class="inline" id="name" type="text" placeholder="Enter your name" required /></label>
+  <label id="email-label">Email<input id="email" type="email" placeholder="Enter your email" required /></label>
+</fieldset>
+
+<fieldset>
+  <label>Message
+    <textarea rows="5" cols="50"></textarea>
+  </label>
+</fieldset>
+
+<fieldset>
+  <input type="submit" value="Submit" id="submit" />
+</fieldset>
+</form>
+
 
 </html>
